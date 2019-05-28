@@ -1,0 +1,14 @@
+.thumbnail .img-responsive{
+    width: 100%;
+    padding: 0;
+    height:400px;
+}
+.thumbnail .caption-full{
+    padding: 9px;
+}
+.thumbnail{
+    padding: 0;
+}
+.delete{
+    display: inline;
+}

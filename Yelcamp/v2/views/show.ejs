@@ -1,0 +1,11 @@
+<% include partials/header %>
+<a href="/campground">TO GO BACK </a>
+<h1>This is the Ground of show webpage</h1>
+<p><%=res.name%></p>
+<img src="<%=res.img%>">
+<p><%=res.description%></p>
+<%res.comment.forEach(function(seed){ %>
+   <p> <strong><%= seed.author%></strong></p>
+    <p>----<%=seed.text%></p>
+<% }) %>
+<% include partials/footer %>
